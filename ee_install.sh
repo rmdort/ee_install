@@ -133,7 +133,7 @@ curl \
 	--data-urlencode 'screen_name='$admin_screenname \
 	--data-urlencode 'site_label='$site_name \
 	--data-urlencode 'theme_select='$site_theme \
-	--data-urlencode 'sever_timezone='$time_zone \
+	--data-urlencode 'server_timezone='$time_zone \
 	$site_url$system"/index.php?C=wizard&M=do_install&language=english" \
 	> /dev/null 2>&1 # Output to dev null
 	
