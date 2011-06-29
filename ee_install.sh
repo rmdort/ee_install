@@ -132,7 +132,7 @@ curl \
 	--data-urlencode 'email_address='$webmaster_email \
 	--data-urlencode 'screen_name='$admin_screenname \
 	--data-urlencode 'site_label='$site_name \
-	--data-urlencode 'theme_select='$site_theme \
+	--data-urlencode 'theme='$site_theme \
 	--data-urlencode 'server_timezone='$time_zone \
 	$site_url$system"/index.php?C=wizard&M=do_install&language=english" \
 	> /dev/null 2>&1 # Output to dev null
